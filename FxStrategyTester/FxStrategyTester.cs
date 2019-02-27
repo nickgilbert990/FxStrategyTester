@@ -15,7 +15,7 @@ namespace cAlgo.Robots
 
         protected override void OnStart()
         {
-            // Put your initialization logic here
+            // Put your initialization logic here  
         }
 
         protected override void OnTick()
