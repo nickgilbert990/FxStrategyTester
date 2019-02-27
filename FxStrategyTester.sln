@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxStrategyTester", "FxStrategyTester\FxStrategyTester.csproj", "{55593553-76BB-47BB-B7F3-DD7C8FA6A402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFxStrategyTeterUnitTestProject", "UFxStrategyTeterUnitTestProject\UFxStrategyTeterUnitTestProject.csproj", "{DC27C64A-04B3-4558-9425-F099C806EB94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxStrategyTeterUnitTestProject", "UFxStrategyTeterUnitTestProject\FxStrategyTeterUnitTestProject.csproj", "{DC27C64A-04B3-4558-9425-F099C806EB94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
