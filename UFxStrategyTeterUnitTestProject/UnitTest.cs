@@ -1,7 +1,12 @@
 ﻿using System;
+using cAlgo;
+using cAlgo.API;
 using cAlgo.API.Internals;
+using cAlgo.Indicators;
+using cAlgo.Main;
 using Moq;
 using NUnit.Framework;
+using static cAlgo.Main.TradeAutomation;
 
 namespace UFxStrategyTeterUnitTestProject
 {
@@ -10,8 +15,16 @@ namespace UFxStrategyTeterUnitTestProject
     {
         [Test]
         public void TestMethod()
-        {
-            Mock<IIndicator> mockIndicator = new Mock<IIndicator>();
+        { 
+            var factoryParameters = new FactoryParameters { IndicatorType = "XX" };
+            var _indicator = new IndicatorFactory().GetIndicator(factoryParameters);
+            
+            Assert.Multiple(() =>
+            {
+                Assert.IsNull(_indicator);
+            });
+
+            
         }
     }
 }
