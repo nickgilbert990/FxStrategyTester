@@ -12,7 +12,10 @@ namespace cAlgo
             switch (inputParameters.IndicatorType)
             {
                 case "MA":
+                {
                     return new MovingAverageCrossOver(inputParameters);
+                }
+                    
                 default:                 
                     return null;
             }
